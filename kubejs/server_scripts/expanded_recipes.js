@@ -30,7 +30,7 @@ ServerEvents.recipes(event => {
 
     // === 粗铀矿
     event.recipes.createoreexcavation.vein('{"text": "粗铀矿"}', 'immersiveengineering:raw_uranium')
-        .placement(256, 16, 333333)
+        .placement(256, 16, 327671)
         .biomeWhitelist('minecraft:is_overworld')
         .id("kubejs:raw_uranium_vein");
     event.recipes.createoreexcavation.drilling(['immersiveengineering:raw_uranium', coeutil.processingOutput('minecraft:cobbled_deepslate', 0.3), coeutil.processingOutput('minecraft:granite', 0.1), coeutil.processingOutput('immersiveengineering:raw_lead', 0.05)], 'kubejs:raw_uranium_vein', TIME.NORMAL)
@@ -39,7 +39,7 @@ ServerEvents.recipes(event => {
 
     // === 粗镍矿
     event.recipes.createoreexcavation.vein('{"text": "粗镍矿"}', 'immersiveengineering:raw_nickel')
-        .placement(128, 8, 333333)
+        .placement(128, 8, 655363)
         .biomeWhitelist('minecraft:is_overworld')
         .id("kubejs:raw_nickel_vein");
     event.recipes.createoreexcavation.drilling('immersiveengineering:raw_nickel', 'kubejs:raw_nickel_vein', TIME.NORMAL)
@@ -47,7 +47,7 @@ ServerEvents.recipes(event => {
 
     // === 粗铅矿
     event.recipes.createoreexcavation.vein('{"text": "粗铅矿"}', 'immersiveengineering:raw_lead')
-        .placement(128, 8, 333333)
+        .placement(128, 8, 919810)
         .biomeWhitelist('minecraft:is_overworld')
         .id("kubejs:raw_lead_vein");
     event.recipes.createoreexcavation.drilling('immersiveengineering:raw_lead', 'kubejs:raw_lead_vein', TIME.NORMAL)
@@ -55,7 +55,7 @@ ServerEvents.recipes(event => {
 
     // === 粗银
     event.recipes.createoreexcavation.vein('{"text": "粗银矿"}', 'immersiveengineering:raw_silver')
-        .placement(128, 8, 333333)
+        .placement(128, 8, 191981)
         .biomeWhitelist('minecraft:is_overworld')
         .id("kubejs:raw_silver_vein");
     event.recipes.createoreexcavation.drilling('immersiveengineering:raw_silver', 'kubejs:raw_silver_vein', TIME.NORMAL)
@@ -63,7 +63,7 @@ ServerEvents.recipes(event => {
 
     // === 粗铂矿
     event.recipes.createoreexcavation.vein('{"text": "铂矿"}', 'createpropulsion:platinum_ore')
-        .placement(128, 8, 333333)
+        .placement(128, 8, 114514)
         .biomeWhitelist('minecraft:is_overworld')
         .id("kubejs:raw_platinum_vein");
     event.recipes.createoreexcavation.drilling('createpropulsion:platinum_ore', 'kubejs:raw_platinum_vein', TIME.NORMAL)
@@ -71,7 +71,7 @@ ServerEvents.recipes(event => {
 
     // === 盐矿
     event.recipes.createoreexcavation.vein('{"text": "盐矿"}', 'expandeddelight:salt_ore')
-        .placement(128, 4, 333333)
+        .placement(128, 4, 187000)
         .biomeWhitelist('minecraft:is_overworld')
         .id("kubejs:raw_salt_vein");
     event.recipes.createoreexcavation.drilling('expandeddelight:salt_ore', 'kubejs:raw_salt_vein', TIME.NORMAL)
@@ -92,4 +92,9 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('minecraft:enchanted_golden_apple', 64), [
         'kubejs:ta_jlpawa'
     ]);
+
+    // 禁用背包嵌套
+    event.remove({
+        id: "sophisticatedbackpacks:inception_upgrade"
+    })
 })
