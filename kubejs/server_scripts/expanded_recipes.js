@@ -92,4 +92,9 @@ ServerEvents.recipes(event => {
     event.shapeless(Item.of('minecraft:enchanted_golden_apple', 64), [
         'kubejs:ta_jlpawa'
     ]);
+
+    // 禁用背包嵌套
+    event.remove({
+        id: "sophisticatedbackpacks:inception_upgrade"
+    })
 })
