@@ -68,17 +68,17 @@
 	#Maximum length in blocks of mechanical belts.
 	# Default: 20
 	# Range: > 5
-	maxBeltLength = 20
+	maxBeltLength = 40
 	#.
 	#Maximum length in blocks of chain conveyor connections.
 	# Default: 32
 	# Range: > 5
-	maxChainConveyorLength = 32
+	maxChainConveyorLength = 320
 	#.
 	#Maximum amount of connections each chain conveyor can have.
 	# Default: 4
 	# Range: > 1
-	maxChainConveyorConnections = 4
+	maxChainConveyorConnections = 6
 	#.
 	#Damage dealt by active Crushing Wheels.
 	# Default: 4
@@ -542,7 +542,7 @@
 	#Maximum length of track that can be placed as one batch or turn.
 	# Default: 32
 	# Range: 16 ~ 128
-	maxTrackPlacementLength = 32
+	maxTrackPlacementLength = 128
 	#.
 	#Maximum length of a Train Stations' assembly track.
 	# Default: 128
