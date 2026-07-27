@@ -21,12 +21,14 @@
     "commandUseWorldEdit": false,
     "customSchematicBaseDirectoryEnabled": false,
     "debugLogging": false,
+    "displayFileOpsFeedback": false,
     "datafixerMode": "always",
     "datafixerDefaultSchema": 1139,
     "easyPlaceFirst": true,
     "easyPlaceHoldEnabled": true,
     "easyPlaceMode": false,
     "easyPlaceSinglePlayerHandling": true,
+    "easyPlaceSinglePlayerValidation": true,
     "easyPlaceProtocolVersion": "v3",
     "easyPlaceSwingHand": true,
     "easyPlaceVanillaReach": false,
@@ -38,7 +40,7 @@
       }
     },
     "entityDataSyncBackup": false,
-    "entityDataSyncCacheTimeout": 0.75,
+    "entityDataSyncCacheTimeout": 1.0,
     "entityDataSyncLoadNbt": true,
     "executeRequireHoldingTool": true,
     "fixChestMirror": true,
@@ -74,6 +76,7 @@
     "toolItemEnabled": true,
     "unhideSchematicVCS": false,
     "pasteReplaceBehavior": "all",
+    "pasteLayerBehavior": "all",
     "schematicVcsDeleteMode": "matching_block",
     "selectionCornersMode": "corners",
     "commandFillMaxVolume": 32768,
@@ -87,14 +90,7 @@
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",
-    "toolItemComponents": "empty",
-    "printingMode": false,
-    "printingDebug": false,
-    "printingInterval": 5,
-    "printingRange": 5.0,
-    "replaceFluidSourceBlocks": true,
-    "stripLogs": true,
-    "interactBlocks": true
+    "toolItemComponents": "empty"
   },
   "Hotkeys": {
     "addSelectionBox": {
@@ -223,6 +219,9 @@
     "schematicEditReplaceDirection": {
       "keys": ""
     },
+    "schematicEditReplaceSelection": {
+      "keys": ""
+    },
     "schematicPlacementRotation": {
       "keys": "RIGHT"
     },
@@ -327,15 +326,10 @@
     },
     "unloadCurrentSchematic": {
       "keys": ""
-    },
-    "print": {
-      "keys": ""
-    },
-    "togglePrintingMode": {
-      "keys": "CAPS_LOCK"
     }
   },
   "InfoOverlays": {
+    "defaultSelectionMode": "simple",
     "blockInfoLinesEnabled": true,
     "blockInfoOverlayEnabled": true,
     "infoOverlaysTargetFluids": false,
@@ -372,7 +366,15 @@
     "enableSchematicFluidRendering": true,
     "enableSchematicFakeLighting": true,
     "enableSchematicOverlay": true,
+    "enableSchematicOverlayCulling": {
+      "enabled": true,
+      "hotkey": {
+        "keys": ""
+      }
+    },
     "ignoreExistingFluids": true,
+    "ignoreExistingBlocks": false,
+    "ignorableExistingBlocks": [],
     "overlayReducedInnerSides": false,
     "renderAOModernEnable": false,
     "renderAreaSelectionBoxSides": true,
@@ -385,9 +387,10 @@
     "renderPlacementBoxSides": false,
     "renderPlacementEnclosingBox": true,
     "renderPlacementEnclosingBoxSides": false,
+    "renderSchematicEntities": true,
+    "renderSchematicTileEntities": true,
     "renderTranslucentBlockInnerSides": false,
     "schematicOverlayEnableOutlines": true,
-    "schematicOverlayEnableResorting": true,
     "schematicOverlayEnableSides": true,
     "schematicOverlayModelOutline": true,
     "schematicOverlayModelSides": true,
