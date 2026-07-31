@@ -3,13 +3,24 @@ type = fancymenu_layout
 layout-meta {
   identifier = update_logs
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1785483847922
+  last_edited_time = 1785487647111
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:3be76d75-4a58-4847-98e7-fb9522d91653-1785483801254] = [groups:][instances:]
+  [loading_requirement_container_meta:4d1ed652-7dea-4011-a6f4-e5f79dac34a7-1785487636072] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 4.0
+}
+
+customization {
+  action = autoscale
+  basewidth = 2560
+  baseheight = 1440
 }
 
 menu_background {
@@ -416,7 +427,7 @@ element {
 
 element {
   interactable = true
-  source = By TA\_JLPawa%n%%n%**更新日志:**%n%**V0.0.4 -> V0.0.5**%n%更新模组：%n%create\_things\_and\_misc-4.1.1-neoforge-1.21.1 机械动力：实用杂物（修复配方）%n%createaddition-1.6.0 机械动力：创想附加（更新版本）%n%create\_connected-1.3.2-mc1.21.1 机械动力：创意传动（更新版本）%n%sodium-neoforge-0.8.12+mc1.21.1 钠（更新版本）%n%supplementaries-neoforge-1.21.1-3.7.4 锦致装饰（更新版本）%n%iris-neoforge-1.8.14-beta.1+mc1.21.1 Iris着色器(更新版本)%n%fancymenu\_neoforge\_3.9.8\_MC\_1.21.1 UI修改模组(更新版本)%n%%n%新增模组：%n%railways-0.2.0+neoforge-mc1.21.1 机械动力：汽鸣铁道1.21.1%n%sable-neoforge-1.21.1-2.0.3 方块物理化模组支持库（支持：机械动力：航空学）%n%create-aeronautics-bundled-1.21.1-1.3.0 机械动力：航空学%n%ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge 支持库（支持：机械动力：火炮）%n%createbigcannons-5.11.7+mc.1.21.1 机械动力：火炮%n%createdieselgenerators-1.21.1-1.3.14 机械动力：柴油动力%n%createpropulsion-1.1.4 机械动力：推进学%n%CreateDragonsPlus-1.11.2b 机械动力：龙之 Plus支持库（支持：机械动力：中央厨房）%n%create-central-kitchen-2.5.0 机械动力：中央厨房%n%create-enchantment-industry-2.4.2 机械动力：附魔工业%n%globalpacks-neoforge-1.21.1-21.0.6  全局数据包支持模组%n%justzoom_neoforge_2.1.0_MC_1.21.1 缩放模组%n%%n%新增数据包：%n%SFSRModConnector 模组整合用数据包%n%%n%新增资源包:%n%SFSR资源包 汉化用资源包%n%%n%新增内容:%n%园艺玻璃罩现在支持种植辣椒与原版树苗%n%统一了沉浸原油与机械动力：柴油动力的同类流体%n%为沉浸原油的部分流体新增燃料功能%n%新增沉浸原油的焦煤塔合成沥青的配方%n%修改了机械动力：附魔工业的经验蛋糕配方%n%新增盐矿与铂矿的钻井配方%n%新增多个模组的汉化%n%%n%%n%**V0.0.3 -> V0.0.4**%n%新增客户端模组：%n%LetDo系列模组:烘焙模组：letsdo-bakery-neoforge-2.1.6%n%JEI拓展模组：JustEnoughResources-NeoForge-1.21.1-1.6.0.12%n%雕刻方块装饰模组：rechiseled-1.2.5-neoforge-mc1.21%n%FTB任务模组：ftb-quests-neoforge-2101.1.27%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar%n%%n%新增服务端模组:%n%letsdo-bakery-neoforge-2.1.6 %n%rechiseled-1.2.5-neoforge-mc1.21%n%ftb-quests-neoforge-2101.1.27%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar%n%%n%物品更新:%n%添加少量未完成的FTB任务%n%添加部分未完成的酿酒自动化配方%n%添加沉浸工程系列矿脉%n%%n%杂项更新:%n%优化自定义界面%n%添加查看更新日志功能%n%%n%%n%**V0.0.2 -> V0.0.3**%n%针对部分模组进行了汉化%n%移除TACZ中的两个枪包，新增九个枪包%n%%n%%n%**V0.0.1 -> V0.0.2**%n%修改模组与界面%n%%n%%n%**V0.0.1**%n%初始版本
+  source = By TA\_JLPawa%n%%n%**更新日志:**%n%**V0.0.5 -> V0.0.6**%n%更新模组：%n%connector-2.0.0-beta.14+1.21.1-full -> connector-2.0.0-beta.15+1.21.1-full%n%Quark-4.1-479 -> Quark-4.1-482%n%ImmersiveEngineering-1.21.1-12.4.2-194 -> ImmersiveEngineering-1.21.1-12.4.3-194-Remake **个人重新构建版本**%n%forgematica-0.4.1+mc1.21.1 -> forgematica-0.4.2+mc1.21.1%n%forgified-fabric-api-0.116.7+2.2.4+1.21.1. -> forgified-fabric-api-0.116.14+2.3.0+1.21.1%n%lootr-neoforge-1.21.1-1.11.37.120 -> lootr-neoforge-1.21.1-1.11.37.122%n%%n%新增模组：%n%Axiom-5.4.2-for-MC1.21.1 **注：该模组为客户端建筑模组, 需要额外添加**%n%modmenu-11.0.4 Fabric版本的Mod菜单%n%placeholder-api-2.4.2+1.21 文本占位符api%n%createendertransmission-2.1.1-1.21.1 机械动力:末影传输%n%cc-tweaked-1.21.1-forge-1.120.0 CC:T电脑模组%n%MouseTweaks-neoforge-mc1.21-2.26.1 鼠标手势模组%n%kaleidoscopecookery-1.4.1-neoforge+mc1.21.1 森罗物语:厨房%n%kaleidoscopedoll-1.4.1-neoforge+mc1.21.1 森罗物语:玩偶%n%kaleidoscopetavern-1.2.0-neoforge+mc1.21.1 森罗物语:酿酒%n%%n%新增内容:%n%新增 沉浸石油:沥青混凝土 与 机械动力柴油动力:沥青块 相互转化的配方%n%修改部分配置，以便更适合在生存模式中建筑%n%%n%修复Bug:%n%修复主界面>更新日志彩蛋在非全屏模式下背景缩放异常的问题%n%修复沉浸工程铁杆异常的问题%n%修复沉浸工程与物理化模组冲突的问题%n%修复部分矿脉生成冲突问题%n%%n%%n%**V0.0.4 -> V0.0.5**%n%更新模组：%n%create\_things\_and\_misc-4.1.1-neoforge-1.21.1 机械动力：实用杂物（修复配方）%n%createaddition-1.6.0 机械动力：创想附加（更新版本）%n%create\_connected-1.3.2-mc1.21.1 机械动力：创意传动（更新版本）%n%sodium-neoforge-0.8.12+mc1.21.1 钠（更新版本）%n%supplementaries-neoforge-1.21.1-3.7.4 锦致装饰（更新版本）%n%iris-neoforge-1.8.14-beta.1+mc1.21.1 Iris着色器(更新版本)%n%fancymenu\_neoforge\_3.9.8\_MC\_1.21.1 UI修改模组(更新版本)%n%%n%新增模组：%n%railways-0.2.0+neoforge-mc1.21.1 机械动力：汽鸣铁道1.21.1%n%sable-neoforge-1.21.1-2.0.3 方块物理化模组支持库（支持：机械动力：航空学）%n%create-aeronautics-bundled-1.21.1-1.3.0 机械动力：航空学%n%ritchiesprojectilelib-2.1.2+mc.1.21.1-neoforge 支持库（支持：机械动力：火炮）%n%createbigcannons-5.11.7+mc.1.21.1 机械动力：火炮%n%createdieselgenerators-1.21.1-1.3.14 机械动力：柴油动力%n%createpropulsion-1.1.4 机械动力：推进学%n%CreateDragonsPlus-1.11.2b 机械动力：龙之 Plus支持库（支持：机械动力：中央厨房）%n%create-central-kitchen-2.5.0 机械动力：中央厨房%n%create-enchantment-industry-2.4.2 机械动力：附魔工业%n%globalpacks-neoforge-1.21.1-21.0.6  全局数据包支持模组%n%justzoom\_neoforge\_2.1.0\_MC\_1.21.1 缩放模组%n%%n%新增数据包：%n%SFSRModConnector 模组整合用数据包%n%%n%新增资源包:%n%SFSR资源包 汉化用资源包%n%%n%新增内容:%n%园艺玻璃罩现在支持种植辣椒与原版树苗%n%统一了沉浸原油与机械动力：柴油动力的同类流体%n%为沉浸原油的部分流体新增燃料功能%n%新增沉浸原油的焦煤塔合成沥青的配方%n%修改了机械动力：附魔工业的经验蛋糕配方%n%新增盐矿与铂矿的钻井配方%n%新增多个模组的汉化%n%%n%%n%**V0.0.3 -> V0.0.4**%n%新增客户端模组：%n%LetDo系列模组:烘焙模组：letsdo-bakery-neoforge-2.1.6%n%JEI拓展模组：JustEnoughResources-NeoForge-1.21.1-1.6.0.12%n%雕刻方块装饰模组：rechiseled-1.2.5-neoforge-mc1.21%n%FTB任务模组：ftb-quests-neoforge-2101.1.27%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar%n%%n%新增服务端模组:%n%letsdo-bakery-neoforge-2.1.6 %n%rechiseled-1.2.5-neoforge-mc1.21%n%ftb-quests-neoforge-2101.1.27%n%ImmersivePetroleum-1.21.1-4.4.1-37.jar%n%%n%物品更新:%n%添加少量未完成的FTB任务%n%添加部分未完成的酿酒自动化配方%n%添加沉浸工程系列矿脉%n%%n%杂项更新:%n%优化自定义界面%n%添加查看更新日志功能%n%%n%%n%**V0.0.2 -> V0.0.3**%n%针对部分模组进行了汉化%n%移除TACZ中的两个枪包，新增九个枪包%n%%n%%n%**V0.0.1 -> V0.0.2**%n%修改模组与界面%n%%n%%n%**V0.0.1**%n%初始版本
   source_mode = direct
   shadow = true
   grabber_texture_normal = [source:local]/config/fancymenu/assets/sfsr/panel-border-012.png
@@ -448,11 +459,11 @@ element {
   fade_in_v2 = no_fading
   fade_out = no_fading
   auto_sizing = false
-  auto_sizing_base_screen_width = 2403
-  auto_sizing_base_screen_height = 1269
+  auto_sizing_base_screen_width = 2561
+  auto_sizing_base_screen_height = 1352
   auto_sizing_base_gui_scale = 3.7555555555555555
-  auto_sizing_base_gui_width = 640
-  auto_sizing_base_gui_height = 338
+  auto_sizing_base_gui_width = 682
+  auto_sizing_base_gui_height = 360
   sticky_anchor = false
   anchor_point = mid-centered
   x = -269
