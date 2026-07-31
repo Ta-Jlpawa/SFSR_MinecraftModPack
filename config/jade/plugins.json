@@ -52,10 +52,6 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "exposure": {
-    "lightroom": true,
-    "photograph_frame": true
-  },
   "jade_access": {
     "held_item": true,
     "sign": true,
@@ -63,14 +59,8 @@
     "entity": true,
     "entity_variant": true
   },
-  "yes_steve_model": {
-    "model_info": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
-  },
-  "supplementaries": {
-    "hat_stand": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -83,10 +73,38 @@
     "block_properties": false,
     "mod_name": true
   },
-  "corpse": {
-    "corpse": true
+  "kaleidoscope_doll": {
+    "doll_block": true,
+    "doll_entity": true
   },
   "balm": {
     "jade": true
+  },
+  "exposure": {
+    "lightroom": true,
+    "photograph_frame": true
+  },
+  "yes_steve_model": {
+    "model_info": true
+  },
+  "kaleidoscope_cookery": {
+    "chopping_board": true,
+    "shawarma_spit": true,
+    "recipe_block": true,
+    "food_bite_block": true,
+    "millstone": true,
+    "enamel_basin": true
+  },
+  "quark": {
+    "oretoise_eating_cooldown": true
+  },
+  "supplementaries": {
+    "hat_stand": true
+  },
+  "kaleidoscope_tavern": {
+    "barrel": true
+  },
+  "corpse": {
+    "corpse": true
   }
 }

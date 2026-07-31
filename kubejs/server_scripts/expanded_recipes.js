@@ -93,6 +93,14 @@ ServerEvents.recipes(event => {
         'kubejs:ta_jlpawa'
     ]);
 
+    event.shapeless(Item.of('immersivepetroleum:asphalt', 1), [
+        'createdieselgenerators:asphalt_block'
+    ]);
+
+    event.shapeless(Item.of('createdieselgenerators:asphalt_block', 1), [
+        'immersivepetroleum:asphalt'
+    ]);
+
     // 禁用背包嵌套
     event.remove({
         id: "sophisticatedbackpacks:inception_upgrade"

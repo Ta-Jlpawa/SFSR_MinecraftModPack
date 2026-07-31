@@ -90,7 +90,14 @@
     "easyPlaceSwapInterval": 0,
     "pickBlockableSlots": "1,2,3,4,5",
     "toolItem": "minecraft:stick",
-    "toolItemComponents": "empty"
+    "toolItemComponents": "empty",
+    "printingMode": false,
+    "printingDebug": false,
+    "printingInterval": 12,
+    "printingRange": 5.0,
+    "replaceFluidSourceBlocks": true,
+    "stripLogs": true,
+    "interactBlocks": true
   },
   "Hotkeys": {
     "addSelectionBox": {
@@ -326,6 +333,12 @@
     },
     "unloadCurrentSchematic": {
       "keys": ""
+    },
+    "print": {
+      "keys": "V"
+    },
+    "togglePrintingMode": {
+      "keys": "CAPS_LOCK"
     }
   },
   "InfoOverlays": {

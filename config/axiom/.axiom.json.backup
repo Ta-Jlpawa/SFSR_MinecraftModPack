@@ -173,9 +173,9 @@
   },
   "internal": {
     "nextUpdateNag": 0,
-    "shownIntroduction": false,
+    "shownIntroduction": true,
     "showOpenConfigTip": true,
-    "showOpenContextMenuTip": true,
+    "showOpenContextMenuTip": false,
     "showOpenEditorTip": true,
     "completedTutorials": [],
     "openEditorWindowTypes": [
