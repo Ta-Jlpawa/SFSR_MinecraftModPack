@@ -97,7 +97,7 @@ iris-neoforge-1.8.14-beta.1+mc1.21.1.jar
 jei-1.21.1-neoforge-19.27.0.340.jar
 justzoom_neoforge_2.1.0_MC_1.21.1.jar
 kaleidoscopecookery-1.4.1-neoforge+mc1.21.1.jar
-kaleidoscopedoll-1.4.1-neoforge+mc1.21.1.jar
+kaleidoscopedoll-1.4.1-neoforge+mc1.21.1-Remake.jar
 kaleidoscopetavern-1.2.0-neoforge+mc1.21.1.jar
 konkrete_neoforge_1.9.9_MC_1.21.jar
 kotlinforforge-5.11.0-all.jar
